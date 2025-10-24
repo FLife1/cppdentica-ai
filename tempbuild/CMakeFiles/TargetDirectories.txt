@@ -1,0 +1,3 @@
+/mnt/d/0codes/cppdentica-ai/tempbuild/CMakeFiles/HelloWorld.dir
+/mnt/d/0codes/cppdentica-ai/tempbuild/CMakeFiles/edit_cache.dir
+/mnt/d/0codes/cppdentica-ai/tempbuild/CMakeFiles/rebuild_cache.dir

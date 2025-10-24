@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(HelloWorld)
+set(CMAKE_CXX_STANDARD 20)
+add_subdirectory(pkg/cpr)
+add_executable(HelloWorld main.cpp src/client.cpp)
+target_include_directories(HelloWorld PRIVATE ${PROJECT_SOURCE_DIR}/include)
+target_link_libraries(HelloWorld PRIVATE cpr)
